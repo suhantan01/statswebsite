@@ -4,6 +4,7 @@
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -885,3 +886,29 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
+
+#experience-panel {
+	position: fixed;
+	right: 40px;
+	top: 100px;
+
+	width: 350px;
+	height: 70vh;
+
+	background: rgba(255,255,255,0.1);
+	padding: 20px;
+	border-radius: 10px;
+
+	overflow-y: scroll;
+}
+
+#experience-panel h2 {
+	margin-top: 0;
+}
+
+.experience-item {
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	padding-bottom: 10px;
+}
